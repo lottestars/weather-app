@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <title>Weather App</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="/Users/charlotteparfitt/Desktop/SheCodes Work/SheCodes+ weather app/src/style.css"
+    />
+  </head>
+
+  <body>
+    <div class="weather-app">
+      <div class="container">
+        <form id="city-form">
+          <input type="text" id="city-search" placeholder="Enter a city" />
+          <button
+            type="submit"
+            class="btn btn-info"
+            value="Search"
+            id="search-button"
+          >
+            Search
+          </button>
+
+          <button
+            type="button"
+            class="btn btn-info"
+            class="getPosition"
+            id="current-location"
+          >
+            Current location
+          </button>
+        </form>
+
+        <div class="weatherInfo">
+          <div class="humidity">Humidity:</div>
+          <div class="windSpeed">Wind speed:</div>
+        </div>
+
+        <header>
+          <div class="sunIcon">☀️</div>
+          <div class="todaysTemp" id="current-temp">22ºc</div>
+          <div class="today" id="todays-date"></div>
+        </header>
+
+        <h1>Corfu</h1>
+
+        <hr />
+
+        <div class="row">
+          <div class="col-sm">
+            Mon <br />
+            ☀️ <br />
+            <strong>21º</strong> 12º
+          </div>
+          <div class="col-sm">
+            Tues<br />
+            ☀️ <br />
+            <strong>22º</strong> 14º
+          </div>
+          <div class="col-sm">
+            Wed<br />
+            ⛅<br />
+            <strong>23º</strong> 15º
+          </div>
+          <div class="col-sm">
+            Thurs<br />
+            🌤️<br />
+            <strong>22º</strong> 12º
+          </div>
+          <div class="col-sm">
+            Fri<br />
+            ☀️ <br />
+            <strong>23º</strong> 15º
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="https://github.com/lottestars/SheCodesPlus-Homework">
+        Open source-code
+      </a>
+      , by Charlotte
+    </footer>
+
+    <script src="/Users/charlotteparfitt/Desktop/SheCodes Work/SheCodes+ weather app/src/script.js"></script>
+  </body>
+</html>
