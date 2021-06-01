@@ -1,0 +1,65 @@
+.weather-app {
+  font-family: "Open Sans Condensed", sans-serif;
+  background-color: #ebfdff;
+  text-align: center;
+  color: #60a9af;
+  font-size: 20px;
+  margin: 60px auto;
+  width: 50%;
+  border: solid;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+form {
+  padding: 25px;
+  text-align: center;
+  font-size: 22px;
+  color: #60a9af;
+}
+
+.input-city {
+  width: 350px auto;
+}
+
+.input-search {
+  width: 100px auto;
+}
+
+.header {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.sunIcon {
+  font-size: 100px;
+}
+
+.todaysTemp {
+  font-size: 70px;
+}
+
+.weatherInfo {
+  position: fixed;
+  padding: 20px;
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: right;
+  top: 220px;
+  right: 420px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+hr {
+  height: 3px;
+  background-color: #60a9af;
+}
+
+.row {
+  text-align: center;
+}
